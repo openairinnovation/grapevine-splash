@@ -1,0 +1,41 @@
+body {
+  background: #CAE1ED url('background_base.jpg') no-repeat top center;
+  font-family: 'Donegal One', serif;
+}
+
+#header {
+  background: transparent url('logo_lozenge.png') no-repeat;
+  height: 200px;
+  margin-top: -10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 477px;
+}
+
+#reason {
+  margin: auto;
+  width: 50%;
+  background: white;
+  border-radius: 15px;
+  moz-border-radius: 15px;
+  border: 1px solid green;
+}
+
+#reason h1, #reason p {
+  margin: auto;
+  padding: 10px;
+}
+
+#reason h1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#reason p {
+  padding-top: 20px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: black;
+}
